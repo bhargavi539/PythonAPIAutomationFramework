@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a271818-ebee-48af-b1b0-89f2222a9326" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/api_requests_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8a271818-ebee-48af-b1b0-89f2222a9326" name="Changes" comment="added utils,helpers and resources folder">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_create_booking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_create_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_crud_integration_update_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/api_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/test_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/common_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/common_verification.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bhargavi539"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bhargavi539&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bhargavi539/PythonAPIAutomationFramework.git",
-    "accountId": "8fc75938-6ce8-4465-aa75-1862f616b0b0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bhargavi539/PythonAPIAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;8fc75938-6ce8-4465-aa75-1862f616b0b0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -50,17 +51,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/QA_Courses/TheTestingAcademy/Python_automation_course/my-python-project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bhargavi.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/QA_Courses/TheTestingAcademy/Python_automation_course/my-python-project"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\QA_Courses\TheTestingAcademy\API_Testing\APIAutomationFramework\PythonAPIAutomationFramework\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bhargavi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAPIAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/bhargavi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bhargavi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -78,6 +109,19 @@
       <option name="presentableId" value="Default" />
       <updated>1728847949203</updated>
     </task>
+    <task id="LOCAL-00001" summary="added utils,helpers and resources folder">
+      <option name="closed" value="true" />
+      <created>1728855133546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728855133546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added utils,helpers and resources folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added utils,helpers and resources folder" />
   </component>
 </project>

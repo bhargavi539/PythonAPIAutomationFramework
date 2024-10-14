@@ -13,12 +13,12 @@ def verify_response_key(key, expected_data):
 
 
 def verify_json_key_for_not_null(key):
-    assert key != 0, "Failed - Key is non Empty" + key
+    assert key != 0, "Failed - Key is null" + key
     assert key > 0, "Failed - Key is grater than zero"
 
 
 def verify_json_key_for_not_null_token(key):
-    assert key != 0, "Failed - Key is non Empty" + key
+    assert key != 0, "Failed - Key is null" + key
 
 
 def verify_response_delete(response):
